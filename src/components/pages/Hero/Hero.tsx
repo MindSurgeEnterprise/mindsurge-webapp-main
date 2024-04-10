@@ -1,29 +1,26 @@
-import hero from '../../../assets/logos/Hero.png';
+import Her from '../../../assets/logos/Hero.png';
 
 const Hero = () => {
   return (
-    <header
-      className="masthead"
-      style={{
-        backgroundImage: `url(${hero})`,
-        marginTop: '100px',
-      }}
-    >
+    <header className="masthead" style={{ backgroundImage: `url(${Her})` }}>
       <div className="container">
-        <div className="intro-text">
-          <div className="intro-lead-in">
-            <span>Bringing like-minded people together</span>
+        <div className="row intro-text">
+          <div className="col-md-12 intro-lead-in">
+            <h1>Bringing like-minded people together</h1>{' '}
           </div>
           <div className="intro-heading text-uppercase">
-            <span>MindSurge</span>
+            <h2>MindSurge</h2>
           </div>
-          <a
-            className="btn btn-primary btn-xl text-uppercase"
-            role="button"
-            href="#services"
-          >
-            Tell mE more
-          </a>
+          <div>
+            <a
+              className="btn btn-primary btn-xl text-uppercase"
+              role="button"
+              href="#services"
+              aria-label="Learn more about our services"
+            >
+              Tell Me More
+            </a>
+          </div>
         </div>
       </div>
     </header>

@@ -10,63 +10,28 @@ import './assets/css/Montserrat.css';
 import './assets/fonts/font-awesome.min.css';
 import Contact from './components/pages/Contact/contact';
 import Hero from './components/pages/Hero/Hero';
+import MissionView from './components/pages/mission/mission';
 
 // Where the web application begins
 function App() {
   return (
-    <>
-      <>
-        <>
-          <span className="NavigationHeader-holder">
-            <NavHeader />
-          </span>
+    <div>
+      <NavHeader />
 
-          <div className="Hero-section">
-            <Hero />
-          </div>
+      <Hero />
 
-          {/* <span className="MissionView-holder">
-            <MissionView />
-          </span> */}
-        </>
+      <ServiceCard />
 
-        <div className="servicecards-holder">
-          <div className="row">
-            <div className="col-lg-12 text-center">
-              <h2 className="text-uppercase section-heading">Services</h2>
-              <h3 className="text-muted section-subheading">
-                Lorem ipsum dolor sit amet consectetur
-              </h3>
-            </div>
-          </div>
-          <ServiceCard />
-        </div>
+      <ProjectView />
 
-        <div className="ProjectView-holder bg-light">
-          <div className="row">
-            <div className="col-lg-12 text-center">
-              <h2 className="text-uppercase section-heading">THINKBOX</h2>
-              <h3 className="text-muted section-subheading">
-                Here is what we are working on.
-              </h3>
-            </div>
-          </div>
-          <ProjectView />
-        </div>
+      <MissionView />
 
-        <div className="profilecards-holder">
-          <Card />
-        </div>
-      </>
+      <Card />
 
-      <div>
-        <Contact />
-      </div>
+      <Contact />
 
-      <span className="navfooter-holder">
-        <NavFooter />
-      </span>
-    </>
+      <NavFooter />
+    </div>
   );
 }
 export default App;

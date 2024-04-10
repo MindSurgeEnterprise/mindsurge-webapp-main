@@ -1,11 +1,11 @@
 import './profilecard.css';
 import First from '../../../../assets/profilecard-pictures/myles_pruitt.jpg';
-import Second from '../../../../assets/profilecard-pictures/TanighC.png';
+import Second from '../../../../assets/profilecard-pictures/TanighC.jpg';
 import Third from '../../../../assets/profilecard-pictures/Q.png';
 
 export const Card = () => {
   return (
-    <section className="bg-light" id="team">
+    <section className="" id="team">
       <div className="container">
         <div className="row">
           <div className="col-sm-4">
@@ -24,11 +24,11 @@ export const Card = () => {
                     <i className="fa fa-github"></i>
                   </a>
                 </li>
-                <li className="list-inline-item">
+                {/* <li className="list-inline-item">
                   <a href="#">
                     <i className="fa fa-facebook"></i>
                   </a>
-                </li>
+                </li> */}
                 <li className="list-inline-item">
                   <a href="#">
                     <i className="fa fa-linkedin"></i>
@@ -45,18 +45,18 @@ export const Card = () => {
                 alt="Tanigh Clark"
               />
               <h4>Tanigh Clark</h4>
-              <p className="text-muted">Lead Marketer</p>
+              <p className="text-muted">Project Lead</p>
               <ul className="list-inline social-buttons">
                 <li className="list-inline-item">
                   <a href="#">
                     <i className="fa fa-github"></i>
                   </a>
                 </li>
-                <li className="list-inline-item">
+                {/* <li className="list-inline-item">
                   <a href="#">
                     <i className="fa fa-facebook"></i>
                   </a>
-                </li>
+                </li> */}
                 <li className="list-inline-item">
                   <a href="#">
                     <i className="fa fa-linkedin"></i>
@@ -76,11 +76,11 @@ export const Card = () => {
                     <i className="fa fa-github"></i>
                   </a>
                 </li>
-                <li className="list-inline-item">
+                {/* <li className="list-inline-item">
                   <a href="#">
                     <i className="fa fa-facebook"></i>
                   </a>
-                </li>
+                </li> */}
                 <li className="list-inline-item">
                   <a href="#">
                     <i className="fa fa-linkedin"></i>
