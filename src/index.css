@@ -9,3 +9,13 @@ body {
 #root {
     height: 100%;
 } */
+
+
+@font-face {
+    font-family: "Varela";
+    src: url("./components/fonts/VarelaRound-Regular.ttf");
+  }
+
+body, html { 
+    font-family: 'Varela';
+  }

@@ -10,11 +10,9 @@ export const ServiceCard = () => {
               <i className="fa fa-circle fa-stack-2x text-primary"></i>
               <i className="fa fa-mobile fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="section-heading">Mobile Apps</h4>
+            <h4 className="section-heading">Mobile Applications</h4>
             <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
+              Mindsurge develops both IOS and Android applications on a variety of mobile devices.
             </p>
           </div>
           <div className="col-md-4">
@@ -22,11 +20,9 @@ export const ServiceCard = () => {
               <i className="fa fa-circle fa-stack-2x text-primary"></i>
               <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="section-heading">Website</h4>
+            <h4 className="section-heading">Websites</h4>
             <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
+              Mindsurge specializes in coding languages such as React for programming websites.
             </p>
           </div>
           <div className="col-md-4">
@@ -34,11 +30,9 @@ export const ServiceCard = () => {
               <i className="fa fa-circle fa-stack-2x text-primary"></i>
               <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="section-heading">Web Security</h4>
+            <h4 className="section-heading">Security</h4>
             <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
+              Mindsurge understands security is a big issue in todays modern world and always develops software applications with latests security standards in mind.
             </p>
           </div>
         </div>

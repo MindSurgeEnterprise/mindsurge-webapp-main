@@ -11,6 +11,7 @@ import './assets/fonts/font-awesome.min.css';
 import Contact from './components/pages/Contact/contact';
 import Hero from './components/pages/Hero/Hero';
 
+
 // Where the web application begins
 function App() {
   return (
@@ -33,9 +34,9 @@ function App() {
         <div className="servicecards-holder">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2 className="text-uppercase section-heading">Services</h2>
+              <h2 className="text-uppercase section-heading">Specialization</h2>
               <h3 className="text-muted section-subheading">
-                Lorem ipsum dolor sit amet consectetur
+                Mindsurge specializes in these areas of technologies
               </h3>
             </div>
           </div>
