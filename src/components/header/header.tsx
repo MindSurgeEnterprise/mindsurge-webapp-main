@@ -37,10 +37,10 @@ function NavHeader() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="javascript:void(0)"
-                  onClick={() =>
-                    scrollToSection('#root > div.servicecards-holder')
-                  }
+                  href="#service"
+                  // onClick={() =>
+                  //   scrollToSection('#root > div.servicecards-holder')
+                  // }
                 >
                   Services
                 </a>
@@ -48,18 +48,19 @@ function NavHeader() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="javascript:void(0)"
-                  onClick={() =>
-                    scrollToSection('#root > div.ProjectView-holder')
-                  }
+                  href="#portfolio"
+                  // onClick={() =>
+                  //   scrollToSection('#root > div.ProjectView-holder')
+                  // }
                 >
-                  Portfolio
+                  Projects
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
                   href="#about"
+                  onClick={() => scrollToSection('#root > d')}
                   style={{ fontSize: '14.4px' }}
                 >
                   About
@@ -68,7 +69,7 @@ function NavHeader() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="javascript:void(0)"
+                  href="#team"
                   onClick={() =>
                     scrollToSection('#root > div.profilecards-holder')
                   }

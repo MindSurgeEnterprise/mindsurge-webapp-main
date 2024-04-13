@@ -1,6 +1,5 @@
 import NavHeader from './components/header/header';
 import NavFooter from './components/footer/footer';
-// import MissionView from './components/pages/mission/mission';
 import ProjectView from './components/pages/projects/overview/projects';
 import { ServiceCard } from './components/pages/services/servicecard';
 import { Card } from './components/pages/profiles/cards/profilecard';
@@ -10,64 +9,28 @@ import './assets/css/Montserrat.css';
 import './assets/fonts/font-awesome.min.css';
 import Contact from './components/pages/Contact/contact';
 import Hero from './components/pages/Hero/Hero';
-
+import MissionView from './components/pages/mission/mission';
 
 // Where the web application begins
 function App() {
   return (
-    <>
-      <>
-        <>
-          <span className="NavigationHeader-holder">
-            <NavHeader />
-          </span>
+    <div>
+      <NavHeader />
 
-          <div className="Hero-section">
-            <Hero />
-          </div>
+      <Hero />
 
-          {/* <span className="MissionView-holder">
-            <MissionView />
-          </span> */}
-        </>
+      <ServiceCard />
 
-        <div className="servicecards-holder">
-          <div className="row">
-            <div className="col-lg-12 text-center">
-              <h2 className="text-uppercase section-heading">Specialization</h2>
-              <h3 className="text-muted section-subheading">
-                Mindsurge specializes in these areas of technologies
-              </h3>
-            </div>
-          </div>
-          <ServiceCard />
-        </div>
+      <ProjectView />
 
-        <div className="ProjectView-holder bg-light">
-          <div className="row">
-            <div className="col-lg-12 text-center">
-              <h2 className="text-uppercase section-heading">THINKBOX</h2>
-              <h3 className="text-muted section-subheading">
-                Here is what we are working on.
-              </h3>
-            </div>
-          </div>
-          <ProjectView />
-        </div>
+      <MissionView />
 
-        <div className="profilecards-holder">
-          <Card />
-        </div>
-      </>
+      <Card />
 
-      <div>
-        <Contact />
-      </div>
+      <Contact />
 
-      <span className="navfooter-holder">
-        <NavFooter />
-      </span>
-    </>
+      <NavFooter />
+    </div>
   );
 }
 export default App;

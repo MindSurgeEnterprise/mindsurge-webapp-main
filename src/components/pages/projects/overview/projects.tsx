@@ -3,7 +3,15 @@ import Third from '../../../../assets/profilecard-pictures/Q.png';
 
 function ProjectView() {
   return (
-    <section className="bg-light" id="portfolio">
+    <section className="bg-light container-fluid" id="portfolio">
+      <div className="row">
+        <div className="col-lg-12 text-center">
+          <h2 className="text-uppercase section-heading">THINKBOX</h2>
+          <h3 className="text-muted section-subheading">
+            Here is what we are working on.
+          </h3>
+        </div>
+      </div>
       <div className="container">
         <div className="row">
           <div className="col-sm-6 col-md-4 portfolio-item">
