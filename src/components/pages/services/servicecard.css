@@ -1,3 +1,11 @@
+#service > div.container > div > div:nth-child(1) > span > i.fa.fa-circle.fa-stack-2x.text-primary {
+    color: #fed136 !important;
+}
+
+#service > div.container > div > div:nth-child(2) > span > i.fa.fa-circle.fa-stack-2x.text-primary {
+    color: #fed136 !important;
+}
+
 .servicecards-list {
     list-style: none;
     padding: 0rem;
@@ -57,6 +65,7 @@ div.servicecard {
 .servicetitle {
     font-size: 3em;
 }
+
 
 /**
 .title {
