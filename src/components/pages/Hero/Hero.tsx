@@ -11,13 +11,6 @@ const Hero = () => {
           <div className="intro-heading text-uppercase">
             <span>MindSurge</span>
           </div>
-          <a
-            className="btn btn-primary btn-xl text-uppercase"
-            role="button"
-            href="#services"
-          >
-            Tell mE more
-          </a>
         </div>
       </div>
     </header>

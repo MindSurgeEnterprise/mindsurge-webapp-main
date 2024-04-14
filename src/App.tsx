@@ -19,11 +19,11 @@ function App() {
 
       <Hero />
 
+      <MissionView />
+
       <ServiceCard />
 
       <ProjectView />
-
-      <MissionView />
 
       <Card />
 

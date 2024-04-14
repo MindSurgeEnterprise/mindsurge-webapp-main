@@ -16,7 +16,7 @@ export const Card = () => {
                 src={First}
                 alt="Myles Pruitt"
               />
-              <h4>Myles Pruit</h4>
+              <h4>Myles Pruitt</h4>
               <p className="text-muted">Company Founder</p>
               <ul className="list-inline social-buttons">
                 <li className="list-inline-item">
